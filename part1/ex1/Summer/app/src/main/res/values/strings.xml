@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Summer</string>
+    <string name="number0_label">enter first number</string>
+    <string name="number1_label">enter second number</string>
+    <string name="sum_button">SUM</string>
+    <string name="output_label">Result: </string>
+</resources>
