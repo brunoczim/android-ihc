@@ -1,21 +1,10 @@
 package io.github.brunoczim.summer
 
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.NumberPicker
 import android.widget.TextView
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import io.github.brunoczim.summer.ui.theme.SummerTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -33,21 +22,5 @@ class MainActivity : ComponentActivity() {
 
             output.text = (parsed0 + parsed1).toString();
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    SummerTheme {
-        Greeting("Android")
     }
 }
