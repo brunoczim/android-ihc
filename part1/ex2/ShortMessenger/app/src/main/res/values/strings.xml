@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShortMessenger</string>
+    <string name="messageLabel">enter a message</string>
+    <string name="buttonLabel">SEND</string>
+</resources>
